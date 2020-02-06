@@ -4,15 +4,22 @@
   "description": "",
   "main": "helloworld.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kilhankim/jenkins.git"
+    "url": "git+https://github.com/kilhankim/jenkins.git"
   },
   "author": "",
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/kilhankim/jenkins/issues"
+  },
+  "homepage": "https://github.com/kilhankim/jenkins#readme",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "zombie": "^6.1.4"
   }
 }
